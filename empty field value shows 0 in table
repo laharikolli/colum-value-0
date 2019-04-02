@@ -1,2 +1,9 @@
  if(empty($itemgstrow->item)){
         $itemgstrow->item=0;}
+<td>if(<?php $rate==''?>)
+{
+echo '0';
+}else{
+echo $rate;
+}
+</td>
