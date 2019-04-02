@@ -1,0 +1,2 @@
+ if(empty($itemgstrow->item)){
+        $itemgstrow->item=0;}
